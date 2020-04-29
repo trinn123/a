@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f1618c2db9.js" crossorigin="anonymous"></script>
+    <title>home page</title>
+</head>
+<body>
+     <div class="contain">
+        <div class= "heading">
+            <h1>HOME PAGE</h1>
+            <h2>OH BABY TEAM</h2>
+            <h3>คติประจำกลุ่ม</h3>
+            <h4>สุขภาพต้องมาก่อน</h4>
+        </div>
+        <div class="over-page">
+            <div class="card">
+                <img src="trin-background.png" alt="" class="image-top">
+                <img src="boxpic.png" alt=""class="profile-image">
+                <h1 class="fullname">Trinn</h1>
+                <h1>ID: 6210402429</h1>
+                <a href="./trinn/index.html"><button type="button">PROFILE</button></a>
+            </div>
+            <div class="card">
+                <img src="ong-background.png"  alt="" class="image-top">
+                <img src="boxpic.png"  alt="" class="profile-image">
+                <h1 class="fullname">Dulyawat</h1>
+                <h1>ID: 6210406572</h1>
+                <a href="./ongprofile/index.html"><button type="button">PROFILE</button></a>
+            </div>
+            <div class="card">
+                <img src="ice-backgroung.png"  alt="" class="image-top">
+                <img src="boxpic.png"  alt="" class="profile-image">
+                <h1 class="fullname">Pichaya</h1>
+                <h1>ID: 6210400728</h1>
+                <a href="./ice/index.html"><button type="button">PROFILE</button></a>
+            </div>
+        </div>
+
+     </div>
+     <style>
+         *{
+             margin: 0;
+             padding: 0;
+         }
+
+         .contain{
+             width: 100%;
+             height: 120vh;
+             background: linear-gradient(rgba(0,0,0, 0.9), rgba(0,0,0,0.7)), url(iu.png) center no-repeat;
+             background-size: cover;
+         }
+
+         .heading h1{
+             color: #fff;
+             font-size: 60px;
+             position: absolute;
+             top: 20%;
+             left: 50%;
+             transform: translateX(-50%);
+             font-family: 'Josefin Sans', sans-serif;
+           
+             letter-spacing: 5px;
+             text-align: center;
+         }
+         
+         .heading h2{
+             color: #fff;
+             font-size: 40px;
+             position: absolute;
+             top: 30%;
+             left: 50%;
+             transform: translateX(-50%);
+             font-family: 'Josefin Sans', sans-serif;
+           
+             letter-spacing: 5px;
+             text-align: center;
+         }
+
+         .heading h3{
+             color: #fff;
+             font-size: 40px;
+             position: absolute;
+             top: 40%;
+             left: 50%;
+             transform: translateX(-50%);
+             font-family: 'Josefin Sans', sans-serif;
+             font-weight: 300;
+             color:silver;
+             letter-spacing: 5px;
+             text-align: center;
+         }
+
+         .heading h4{
+             color: #fff;
+             font-size: 40px;
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translateX(-50%);
+             font-family: 'Josefin Sans', sans-serif;
+           
+             font-weight: 300;
+             color:silver;
+             letter-spacing: 5px;
+             text-align: center;
+         }
+
+         .over-page{
+             width: 100%;
+             height: 40%;
+             display: flex;
+             justify-content: space-evenly;
+             position: relative;
+             top: 55%;
+             left: 50%;
+             transform: translateX(-50%);
+
+         }
+
+         .card{
+             width: 300px;
+             height: 380px;
+             background-color:rgb(206, 120, 194);
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+             transition: transform 0.5s;
+             box-shadow: 0 0 20px rgba(219, 168, 219, 0.5);
+         }
+
+         .card:hover{
+             transform: scale(1.1);
+         }
+
+         .image-top{
+             width: 101%;
+             height: 220px;
+             object-fit: cover;
+             clip-path: polygon(0 0, 100% 0 , 100% 73%, 0% 100%);
+
+         }
+
+         .profile-image{
+             width: 120px;
+             height: 120px;
+             object-fit: cover;
+             border-radius: 50%;
+             margin-top: -110px;
+             z-index: 10;
+             border: 5px solid #eee;
+         }
+
+         .card h1 {
+             font-family: 'Ubuntu', sans-serif;
+             font-size: 22px;
+             color: #555;
+             margin: 10px;
+         }
+
+         .card button{
+             width: 120px;
+             padding: 7px;
+             margin: 10px o;
+             background-color: slateblue;
+             border: none;
+             outline: none;
+             border-radius: 25px;
+             font-family: 'Josefin Sans', sans-serif;
+             color: #eee;
+             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+         }
+
+         .card button:hover{
+            color: rgba(0,0,0,0.7);
+            background-color: seashell;
+         }
+
+
+
+
+
+     </style>
+</body>
+</html>

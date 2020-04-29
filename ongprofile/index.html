@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <title>Ong Profile</title>
+    </head>
+
+
+    <body>
+        <div class ="card">
+            <div class="pic-background">
+                <img src="daisyb.jpg">
+            </div>
+            <div class="pic-profile">
+               <img src="profile2.jpg">
+            </div>
+            <div class ="content">
+                <h1>Dulyawat Visitruangrit</h1>
+                <h1>6210406572</h1>
+                <h2>5 JUNE 2001</h2>
+                <p>LOVE TO CREATE WEB-PAGE PROGRAM</p>
+            </div>
+            <div class="icon">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+            <div class= "date">
+                <button type="button" class="btn btn-primary btn-sm">29 APRIL</button>
+                <button type="button" class="btn btn-primary btn-sm">2 MAY</button>
+                <button type="button" class="btn btn-primary btn-sm">9 MAY</button>
+                <button type="button" class="btn btn-primary btn-sm">16 MAY</button>
+                <button type="button" class="btn btn-primary btn-sm">23 MAY</button>
+            </div>
+        </div>
+    </body>
+
+    <style>
+        body{
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                justify-content: center;
+                align-items: center;
+                display:flex;
+                background: rgb(29, 25, 37);
+            }
+        .card{
+            font-family: "Candara", sans-serif;
+            width: 340px;
+            overflow: hidden;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(36, 59, 46, 0.5);
+        }
+
+        .pic-background img{
+            width: 100%;
+            height: 160px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            object-fit: cover;
+        }
+
+        .pic-profile img{
+            
+            width: 120px;
+            height: 120px;
+            position: relative;
+            margin-top: -75px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 100px;
+            border: 10px solid #fff;
+            transition-duration: transform;
+        }
+        .pic-profile :hover{
+            transform: scale(1.1);
+        }
+
+        .content {
+            font-size: 10px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .icon{
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 30px;
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 20px;
+        }
+
+        .date{
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 30px;
+            font-display: rgba(245, 243, 243, 0.5);
+            font-size: 10px;
+        }
+        .date :hover{
+            background-color: rgb(216, 121, 169);
+        }
+
+    </style>
+</html>
